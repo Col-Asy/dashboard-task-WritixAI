@@ -1,0 +1,179 @@
+{
+  "cats": [
+    {
+      "name": "Siamese",
+      "origin": "Asia",
+      "description": "Affectionate",
+      "size": "5-10 lbs",
+      "image": "/images/cat-imgs/cat-img-1.png"
+    },
+    {
+      "name": "Persian",
+      "origin": "Asia",
+      "description": "Calm",
+      "size": "7-12 lbs",
+      "image": "/images/cat-imgs/cat-img-2.png"
+    },
+    {
+      "name": "Maine Coon",
+      "origin": "North America",
+      "description": "Friendly",
+      "size": "10-25 lbs",
+      "image": "/images/cat-imgs/cat-img-3.png"
+    },
+    {
+      "name": "Sphynx",
+      "origin": "Europe",
+      "description": "Playful",
+      "size": "6-12 lbs",
+      "image": "/images/cat-imgs/cat-img-4.png"
+    },
+    {
+      "name": "Russian Blue",
+      "origin": "Asia",
+      "description": "Reserved",
+      "size": "7-15 lbs",
+      "image": "/images/cat-imgs/cat-img-5.png"
+    },
+    {
+      "name": "Bengal",
+      "origin": "North America",
+      "description": "Energetic",
+      "size": "8-15 lbs",
+      "image": "/images/cat-imgs/cat-img-1.png"
+
+    }
+  ],
+  "dogs": [
+    {
+      "name": "Labrador Retriever",
+      "origin": "Europe",
+      "description": "Friendly",
+      "size": "55-80 lbs",
+      "image": "/images/dog-imgs/dog-img-1.png"
+    },
+    {
+      "name": "German Shepherd",
+      "origin": "Europe",
+      "description": "Loyal",
+      "size": "50-90 lbs",
+      "image": "/images/dog-imgs/dog-img-2.png"
+    },
+    {
+      "name": "Golden Retriever",
+      "origin": "Europe",
+      "description": "Intelligent",
+      "size": "55-75 lbs",
+      "image": "/images/dog-imgs/dog-img-3.png"
+    },
+    {
+      "name": "Koolies",
+      "origin": "Australia",
+      "description": "Active",
+      "size": "45-70 lbs",
+      "image": "/images/dog-imgs/dog-img-4.png"
+    },
+    {
+      "name": "Beagle",
+      "origin": "Europe",
+      "description": "Curious",
+      "size": "20-30 lbs",
+      "image": "/images/dog-imgs/dog-img-5.png"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "origin": "Asia",
+      "description": "Guard Dog",
+      "size": "90-150 lbs",
+      "image": "/images/dog-imgs/dog-img-6.png"
+    }
+  ],
+  "birds": [
+    {
+      "name": "Parrot",
+      "origin": "South America",
+      "description": "Vibrant",
+      "size": "Medium",
+      "image": "/images/bird-imgs/bird-img-1.png"
+    },
+    {
+      "name": "Canary",
+      "origin": "Africa",
+      "description": "Yellow",
+      "size": "Small",
+      "image": "/images/bird-imgs/bird-img-2.png"
+    },
+    {
+      "name": "Bald Eagle",
+      "origin": "North America",
+      "description": "Brown",
+      "size": "Large",
+      "image": "/images/bird-imgs/bird-img-3.png"
+    },
+    {
+      "name": "Hummingbird",
+      "origin": "North America",
+      "description": "Iridescent",
+      "size": "Tiny",
+      "image": "/images/bird-imgs/bird-img-4.png"
+    },
+    {
+      "name": "Australian Masked Owl",
+      "origin": "Australia",
+      "description": "Nocturnal",
+      "size": "Medium",
+      "image": "/images/bird-imgs/bird-img-5.png"
+    },
+    {
+      "name": "Penguin",
+      "origin": "Antarctica",
+      "description": "Black and white",
+      "size": "Medium",
+      "image": "/images/bird-imgs/bird-img-6.png"
+    }
+  ],
+  "horses": [
+    {
+      "name": "American Paint Horse",
+      "origin": "North America",
+      "description": "Versatile",
+      "size": "900-1,200 lbs",
+      "image": "/images/horse-imgs/horse-img-1.png"
+    },
+    {
+      "name": "American Saddlebred",
+      "origin": "North America",
+      "description": "Smooth-gaited",
+      "size": "1,000-1,200 lbs",
+      "image": "/images/horse-imgs/horse-img-2.png"
+    },
+    {
+      "name": "American Quarter Horse",
+      "origin": "North America",
+      "description": "Versatile",
+      "size": "950-1,200 lbs",
+      "image": "/images/horse-imgs/horse-img-3.png"
+    },
+    {
+      "name": "Andalusian",
+      "origin": "Europe",
+      "description": "Intelligent",
+      "size": "1,200-1,400 lbs",
+      "image": "/images/horse-imgs/horse-img-4.png"
+    },
+    {
+      "name": "Appaloosa",
+      "origin": "North America",
+      "description": "Friendly",
+      "size": "900-1,200 lbs",
+      "image": "/images/horse-imgs/horse-img-5.png"
+    },
+    {
+      "name": "Arabian",
+      "origin": "Asia",
+      "description": "Intelligent",
+      "size": "800-1,200 lbs",
+      "image": "/images/horse-imgs/horse-img-6.png"
+    }
+  ]
+}

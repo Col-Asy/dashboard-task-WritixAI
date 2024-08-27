@@ -1,29 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-color: #16161a;
+  --secondary-background-color: #242629;
+  --heading-color: #fffffe;
+  --text-color: #fffffe;
+  --secondary-text-color: #a6a6a6;
+  --button-color: #00ebc7;
+  --button-text: #fffffe;
+  --highlight-color: #ff5470;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root.dark {
+  --background-color: #fffffe;
+  --secondary-background-color: #f2f4f6;
+  --heading-color: #00214d;
+  --text-color: #1b2d45;
+  --secondary-text-color: #252f3c;
+  --button-color: #00ebc7;
+  --button-text: #00214d;
+  --highlight-color: #ff5470;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--text-color));
+  background: var(--background-color);
+  font-family: 'Inter', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+option {
+  font-family: 'Raleway', sans-serif;
+  font-variant: small-caps;
+  color: var(--heading-color);
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--button-text);
+}
+
+div {
+  color: var(--text-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-background-color);
+}
+
+.bg-active {
+  background-color: var(--button-color);
+}
+
+.bg-highlight {
+  background-color: var(--secondary-background-color);
+}
+
+.svg-color {
+  fill: var(--text-color);
+}
+
+input {
+  border: 2px solid var(--button-text);
+  color: var(--button-text);
+  background-color: var(--secondary-background-color);
+}
+
+input:focus {
+  border-color: var(--highlight-color);
+  outline: var(--highlight-color);
+}
+
+input::placeholder {
+  color: var(--secondary-text-color);
+}
+
+select {
+  background-color: var(--secondary-background-color);
+}
+
+.border-highlight {
+  border-color: var(--heading-color);
+}
+
+.bg-secondary-text {
+  background-color: var(--secondary-text-color);
+}
+
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader {
+  position: relative;
+  width: 200px;
+  /* increased width to make the loader bigger */
+  height: 200px;
+  /* increased height to make the loader bigger */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-ring {
+  position: absolute;
+  width: 40px;
+  /* increased width to make the ring bigger */
+  height: 40px;
+  /* increased height to make the ring bigger */
+  border-radius: 50%;
+  background-color: var(--button-color);
+  animation: loader-ring 1.2s infinite;
+}
+
+.large-ring {
+  width: 60px;
+  /* even larger ring size */
+  height: 60px;
+  /* even larger ring size */
+}
+
+.loader-ring:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loader-ring:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.loader-ring:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.loading-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+@keyframes loader-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @layer utilities {

@@ -1,7 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Brief Explanation of Project
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- The project is about building a dashboard's UI/UX, implementing some features, making the overall look of the site better
+- For the context of the dashboard, I've taken the it to display some species of cats, dogs, birds and horses, which can be changed through the options available at sidebar.
+- Navbar doesn't consist of much, but just NavBar written on it with a dark light mode toggle button 
+- At the end, I've attached all the tasks that I wanted to achieve on this project
 
 ## Getting Started
 
+### Without Docker
 First, run the development server:
 
 ```bash
@@ -16,21 +22,34 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### With Docker
+To build the Docker image, run the following command in the root of the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+docker build -t my-next-app .
+```
+This will create a Docker image with the name `my-next-app`.
 
-## Learn More
+To run the Docker container, use the following command:
+```bash
+docker build -t my-next-app .
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will start a new container from the my-next-app image and map port 3000 on the host machine to port 3000 in the container.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open http://localhost:3000 with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Todos
+- [x] Styling the sidebar
+- [x] Styling the cards
+- [x] Styling the content area
+- [x] Implementing the responsive design
+- [x] Implementing dark-light mode toggle
+- [x] Implementing the sidebar toggle
+- [x] Implementing the search bar
+- [x] Implementing the card click effects
+- [x] Implementing content change according to option change
+- [x] Implementing filtering according to categories
+- [x] Implementing the progress bar
+- [x] Implementing the loading animation
+- [ ] Implementing the skeleton loading
