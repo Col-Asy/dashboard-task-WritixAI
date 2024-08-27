@@ -105,7 +105,7 @@ export default function Sidebar() {
                 }`}
                 onClick={() => handleOptionClick("dogs")}
               >
-                Option Dogs
+                Dogs
               </li>
               <li
                 className={`p-2 ${
@@ -115,7 +115,7 @@ export default function Sidebar() {
                 }`}
                 onClick={() => handleOptionClick("cats")}
               >
-                Option Cats
+                Cats
               </li>
               <li
                 className={`p-2 ${
@@ -125,7 +125,7 @@ export default function Sidebar() {
                 }`}
                 onClick={() => handleOptionClick("birds")}
               >
-                Option Birds
+               Birds
               </li>
               <li
                 className={`p-2 ${
@@ -135,7 +135,7 @@ export default function Sidebar() {
                 }`}
                 onClick={() => handleOptionClick("horses")}
               >
-                Option Horses
+               Horses
               </li>
             </ul>
           </div>

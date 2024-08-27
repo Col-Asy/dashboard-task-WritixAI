@@ -79,7 +79,7 @@ export default function ContentArea({ data }: ContentAreaProps) {
           </span>
           <span className="w-full md:w-1/5 h-fit">
             <select
-              className="mt-2 p-2 border rounded w-full md:w-auto h-10 md:h-12 text-base md:text-lg"
+              className="mt-2 p-2 border border-highlight rounded w-full md:w-auto h-10 md:h-12 text-base md:text-lg"
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
             >
@@ -88,7 +88,7 @@ export default function ContentArea({ data }: ContentAreaProps) {
               <option value="Europe">Europe</option>
               <option value="Australia">Australia</option>
               <option value="Africa">Africa</option>
-              <option value="Antartica">Antartica</option>
+              <option value="Antarctica">Antarctica</option>
               <option value="North America">North America</option>
               <option value="South America">South America</option>
             </select>

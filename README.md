@@ -1,7 +1,10 @@
+## Link to Deployed Site
+[Click Here](https://vercel.com/col-asys-projects/dashboard-task-writix-ai)
+
 ## Brief Explanation of Project
 - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-- The project is about building a dashboard's UI/UX, implementing some features, making the overall look of the site better
-- For the context of the dashboard, I've taken the it to display some species of cats, dogs, birds and horses, which can be changed through the options available at sidebar.
+- The project is about building a dashboard's UI/UX, implementing some features, and ofc making the overall look of the site better
+- For the context of the dashboard, I've taken it to display some species of cats, dogs, birds and horses, which can be changed through the options available at sidebar.
 - Navbar doesn't consist of much, but just NavBar written on it with a dark light mode toggle button 
 - At the end, I've attached all the tasks that I wanted to achieve on this project
 

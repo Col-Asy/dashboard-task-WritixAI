@@ -17,8 +17,8 @@
 }
 
 :root.dark {
-  --background-color: #fffffe;
-  --secondary-background-color: #f2f4f6;
+  --background-color: #c7c9cb;
+  --secondary-background-color: #fffffe;
   --heading-color: #00214d;
   --text-color: #1b2d45;
   --secondary-text-color: #252f3c;
@@ -78,7 +78,7 @@ div {
 }
 
 input {
-  border: 2px solid var(--button-text);
+  border: 1px solid var(--button-text);
   color: var(--button-text);
   background-color: var(--secondary-background-color);
 }
@@ -162,7 +162,7 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 10;
 }
 
 @keyframes loader-ring {

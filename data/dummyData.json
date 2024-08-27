@@ -40,7 +40,7 @@
       "origin": "North America",
       "description": "Energetic",
       "size": "8-15 lbs",
-      "image": "/images/cat-imgs/cat-img-1.png"
+      "image": "/images/cat-imgs/cat-img-6.png"
 
     }
   ],
@@ -91,7 +91,7 @@
   "birds": [
     {
       "name": "Parrot",
-      "origin": "South America",
+      "origin": "Asia",
       "description": "Vibrant",
       "size": "Medium",
       "image": "/images/bird-imgs/bird-img-1.png"
